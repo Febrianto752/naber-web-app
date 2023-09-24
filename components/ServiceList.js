@@ -3,7 +3,7 @@ import Service from "./Service";
 export default function ServiceList({ services, className }) {
   return (
     <>
-      <div class={`${className}`}>
+      <div className={`${className}`}>
         {services.map((service, index) => {
           return <Service data={service} key={index} />;
         })}

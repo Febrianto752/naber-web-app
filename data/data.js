@@ -31,4 +31,29 @@ const services = [
   },
 ];
 
-export { services };
+const faqs = [
+  {
+    title: "Apakah kita bisa membatalkan tabungan bersama ?",
+    answer:
+      "Ya bisa, anda bisa menekan tombol keluar dari atabungan bersama di aplikasi",
+  },
+  {
+    title:
+      "Minimal berapa bulan untuk mendapatkan bunga dari tabungan bersama?",
+    answer:
+      "untuk mendapatkan bungan maka minimal lama menabung dalam tabungan bersama adalah 3 bulan",
+  },
+  {
+    title: "Apakah akan terkena denda jika membatalkan tabungan bersama ? ",
+    answer:
+      "Jika anda membatalkan tabungan bersama maka tidak akan dikenakan denda apapun.",
+  },
+  {
+    title:
+      "Berapa jumlah minimal dan maksimal peserta dalam tabungan bersama ?",
+    answer:
+      "Jumlah minimal peserta dalam tabungan bersama adalah 2 orang dan maksimal pesertanya adalah 10 orang.",
+  },
+];
+
+export { services, faqs };
