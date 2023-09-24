@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar({ className }) {
   console.log(className);
@@ -6,14 +7,14 @@ export default function Navbar({ className }) {
     <>
       <nav className={`navbar navbar-expand-sm ${className}`}>
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" href="/">
             <Image
               src="/images/logo.png"
               alt="apple logo"
               width={62}
               height={32}
             />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -28,23 +29,29 @@ export default function Navbar({ className }) {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link active fw-bold text-white"
                   aria-current="page"
-                  href="#"
+                  href="/"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active fw-bold text-white" href="#">
+                <Link
+                  className="nav-link active fw-bold text-white"
+                  href="/calculator"
+                >
                   Calculator
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active fw-bold text-white" href="#">
+                <Link
+                  className="nav-link active fw-bold text-white"
+                  href="/faq"
+                >
                   FAQ
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
