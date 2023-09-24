@@ -1,5 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Navbar from "@/components/Navbar";
+import Banner from "@/components/Banner";
 
 export const metadata = {
   title: "Naber",
@@ -7,35 +9,17 @@ export const metadata = {
 export default function Home() {
   return (
     <main>
-      <h1 className="text-danger">Landing Page</h1>
-
-      <div className="dropdown">
-        <button
-          className="btn btn-secondary dropdown-toggle"
-          type="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          Dropdown button
-        </button>
-        <ul className="dropdown-menu">
-          <li>
-            <a className="dropdown-item" href="#">
-              Action
-            </a>
-          </li>
-          <li>
-            <a className="dropdown-item" href="#">
-              Another action
-            </a>
-          </li>
-          <li>
-            <a className="dropdown-item" href="#">
-              Something else here
-            </a>
-          </li>
-        </ul>
-      </div>
+      <Banner />
+      <section className="py-5">
+        <div className="container">
+          <h2
+            className="text-center border-bottom border-success"
+            style={{ width: "fit-content" }}
+          >
+            Tentang Aplikasi
+          </h2>
+        </div>
+      </section>
     </main>
   );
 }

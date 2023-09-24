@@ -112,3 +112,15 @@ a {
     color-scheme: dark;
   }
 }
+
+.bg-blue-green-to-right {
+  background: linear-gradient(to right, var(--blue-color), var(--green-color));
+}
+
+.bg-blue-green-to-top-right {
+  background: linear-gradient(
+    to top right,
+    var(--blue-color),
+    var(--green-color)
+  );
+}
