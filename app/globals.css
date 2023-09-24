@@ -124,3 +124,11 @@ a {
     var(--green-color)
   );
 }
+
+.border-bottom-green {
+  border-bottom: 4px solid var(--green-color);
+}
+
+.border-blue {
+  border-bottom: 4px solid var(--blue-color);
+}
