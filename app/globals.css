@@ -13,6 +13,7 @@
 
   --blue-color: #3d2dff;
   --green-color: #00ff85;
+  --gray-color: #d9d9d9;
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
@@ -131,4 +132,8 @@ a {
 
 .border-blue {
   border-bottom: 4px solid var(--blue-color);
+}
+
+.bg-gray {
+  background-color: var(--gray-color);
 }

@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <>
-      <section className="py-5 min-vh-100">
+      <section className="py-5">
         <div className="container">
           <div
             className="border-bottom-green mx-auto"
