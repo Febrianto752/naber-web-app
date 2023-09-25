@@ -1,11 +1,10 @@
-"use client";
 import Calculator from "@/components/Calculator";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
-// export const metadata = {
-//   title: "Kalkulator Nabung Bersama",
-// };
+export const metadata = {
+  title: "Kalkulator Nabung Bersama",
+};
 
 export default function CalculatorPage() {
   return (
