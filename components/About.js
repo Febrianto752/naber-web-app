@@ -20,9 +20,9 @@ export default function About() {
                   memungkinkan Anda untuk mengelola dan mengoptimalkan keuangan
                   Anda dengan cara yang lebih cerdas dan efisien. Kami percaya
                   bahwa setiap orang memiliki potensi untuk mencapai kebebasan
-                  finansial, dan itulah mengapa kami membangun Nabung Bersama -
-                  untuk membantu masyarakat mencapai tujuan keuangan mereka
-                  dengan lebih mudah dan aman.”
+                  finansial, dan itulah mengapa kami membangun Naber untuk
+                  membantu masyarakat mencapai tujuan keuangan mereka dengan
+                  lebih mudah dan aman.”
                 </p>
               </div>
             </div>

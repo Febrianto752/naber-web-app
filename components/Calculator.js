@@ -121,7 +121,7 @@ export default function Calculator() {
             <table className="fw-bold">
               <tbody>
                 <tr>
-                  <td className="mb-4">Bunga</td>
+                  <td className="mb-4">Bunga Akhir</td>
                   <td className="px-3">:</td>
                   <td>Rp. {interestYield}</td>
                 </tr>
