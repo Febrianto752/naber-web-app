@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Navbar({ className }) {
-  console.log(className);
   return (
     <>
       <nav className={`navbar navbar-expand-sm ${className}`}>

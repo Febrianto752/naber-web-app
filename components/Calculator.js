@@ -10,7 +10,6 @@ export default function Calculator() {
 
   const handleCalculate = () => {
     const errorsMessages = {};
-    console.log(numberMonthOfSaving);
     if (numberOfSavers < 2 || isNaN(numberOfSavers)) {
       errorsMessages.numberOfSavers = "jumlah penabung harus lebih dari dua";
     } else if (numberOfSavers > 10) {
@@ -25,7 +24,6 @@ export default function Calculator() {
     if (finalSavings < 100000 || isNaN(finalSavings)) {
       errorsMessages.finalSavings = "minimal tabungan akhir adalah Rp. 100.000";
     }
-    console.log(errors);
     if (Object.keys(errorsMessages).length == 0) {
       if (numberMonthOfSaving > 2) {
         const resultInterestYield =

@@ -35,13 +35,13 @@ const faqs = [
   {
     title: "Apakah kita bisa membatalkan tabungan bersama ?",
     answer:
-      "Ya bisa, anda bisa menekan tombol keluar dari atabungan bersama di aplikasi",
+      "Ya bisa, anda bisa menekan tombol keluar dari atabungan bersama di aplikasi.",
   },
   {
     title:
-      "Minimal berapa bulan untuk mendapatkan bunga dari tabungan bersama?",
+      "Minimal berapa bulan untuk mendapatkan bunga dari tabungan bersama ?",
     answer:
-      "untuk mendapatkan bungan maka minimal lama menabung dalam tabungan bersama adalah 3 bulan",
+      "untuk mendapatkan bungan maka minimal lama menabung dalam tabungan bersama adalah 3 bulan.",
   },
   {
     title: "Apakah akan terkena denda jika membatalkan tabungan bersama ? ",

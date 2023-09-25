@@ -2,6 +2,10 @@ import Navbar from "@/components/Navbar";
 import AccordionFAQ from "@/components/AccordionFAQ";
 import Footer from "@/components/Footer";
 
+export const metadata = {
+  title: "FAQ",
+};
+
 export default function FAQPage() {
   return (
     <>
