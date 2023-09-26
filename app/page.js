@@ -18,7 +18,6 @@ export default function Home() {
       <Banner />
       <About />
       <OurServices />
-      <Footer />
     </main>
   );
 }

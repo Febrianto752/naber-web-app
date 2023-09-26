@@ -9,7 +9,7 @@ export const metadata = {
 export default function FAQPage() {
   return (
     <>
-      <main className="min-vh-100">
+      <main>
         <Navbar className="bg-blue-green-to-right" />
         <div className="container">
           <h1 className="my-5">Pertanyaan Umum</h1>
@@ -22,7 +22,6 @@ export default function FAQPage() {
           <p>kirim pertanyaan anda ke email sentosa@naber.com</p>
         </div>
       </main>
-      <Footer />
     </>
   );
 }

@@ -26,7 +26,6 @@ export default function CalculatorPage() {
           </div>
         </div>
       </main>
-      <Footer />
     </>
   );
 }

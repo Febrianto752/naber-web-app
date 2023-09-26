@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 export default function Banner() {
   return (
     <>
-      <section className="pb-5 py-3 bg-blue-green-to-top-right">
+      <section className="pb-5 bg-blue-green-to-top-right">
         <Navbar className="bg-transparent" />
         <div className="container">
           <div className="row justify-content-between">
